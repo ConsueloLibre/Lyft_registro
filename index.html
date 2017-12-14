@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>LYFT</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/js/app.js">
+    <link rel="stylesheet" href="build/css/intlTelInput.css">
+
+  </head>
+  <body>
+    <div id="splash">
+      <center>
+        <img src="assets/images/1.png" class="open">
+      </center>
+    </div>
+    <div class="container-fluid">
+      <header>
+        <div class="row">
+          <div class="col-xs-offset-4 hidden-sm hidden-md hidden-lg hidden-xl">
+            <img src="assets/images/1.png" class="face">
+          </div>
+          <div class="row">
+            <div class="col-xs-5 hidden-sm hidden-md hidden-lg hidden-xl login">
+              <button type="button" class="btn btn-primary btn-lg">
+                 INICIO
+                </button>
+            </div>
+            <div class="col-xs-6 hidden-sm hidden-md hidden-lg hidden-xl">
+              <!-- Button trigger modal -->
+	             <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+	                REGISTRO
+	               </button>
+
+	                <!-- Modal -->
+	             <div class="modal fullscreen-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	                <div class="modal-dialog" role="document">
+	                   <div class="modal-content">
+	                      <div class="modal-header">
+	                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	                         <h4 class="modal-title" id="myModalLabel">Seleccione País de Origen</h4>
+	                       </div>
+	                     <div class="modal-body">
+                         <h1>Seleccione su País e Ingrese Numero Telefónico</h1>
+                         <input type="tel">
+	                     </div>
+	                     <div class="modal-footer">
+	                        <button type="button" class="btn btn-default" data-dismiss="modal">Salir</button>
+	                        <button type="button" class="btn btn-primary">Siguiente</button>
+	                      </div>
+	                   </div>
+	                  </div>
+	                 </div>
+            </div>
+
+          </div>
+          <!--<div class="col-xs-offset-5 hidden-sm hidden-md hidden-lg hidden-xl">
+
+            <input type="button" id="btn-2" value="SING UP">
+            <div id="contenido-2">
+              <p>Ingresa Tu País y Numero Telefonico</p>
+
+            </div>
+
+          </div>-->
+
+
+        </div>
+      </header>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="build/js/intlTelInput.js"></script>
+
+  </body>
+</html>

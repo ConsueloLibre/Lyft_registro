@@ -1,0 +1,63 @@
+#splash {
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    width:100%;
+    background: linear-gradient(135deg, rgba(135,8,107,1) 31%, rgba(135,8,107,1) 40%, rgba(172,28,132,1) 51%, rgba(219,54,164,1) 65%);
+    z-index: 100;
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+    font-size: 13vh;
+
+}
+.open{
+  margin-top: 40vh;
+  width: 30vh;
+}
+
+header{
+  background-image: url(../images/2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position:center;
+}
+.face{
+  width: 15vh;
+  margin-top: 10vh;
+}
+#btn-2{
+  margin-top: 60vh;
+}
+#contenido-2{
+  border: solid white 2px;
+  margin-left: 5vh;
+}
+.login{
+  margin-left: 5vh;
+}
+button{
+  margin-top: 50vh;
+}
+.fullscreen-modal .modal-dialog {
+  margin: 0;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .fullscreen-modal .modal-dialog {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .fullscreen-modal .modal-dialog {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .fullscreen-modal .modal-dialog {
+     width: 1170px;
+  }
+}
